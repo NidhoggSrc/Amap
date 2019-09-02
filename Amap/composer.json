@@ -1,0 +1,21 @@
+{
+  "name": "saber/amap",
+  "authors": [
+    {
+      "name": "dayzzhang",
+      "email": "350224276@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Amap\\":"src/"
+    }
+  }
+}
