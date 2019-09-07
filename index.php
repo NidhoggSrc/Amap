@@ -7,5 +7,19 @@ require_once './Amap/vendor/autoload.php';
 //var_dump($aad->getLocation());
 
 //104.391202,31.127424
-$test2 =new \Amap\request\geocode\RegeoRequest('3fc7e955e64fd97da51be8875e8911c3');
-$aa = $test2->getContents('116.481488,39.990464','商务写字楼','1000','all');
+
+
+function def()
+{
+    $i =0;
+    while ($i<1000){
+        $i++;
+        echo $i;
+//        yield $i;
+    }
+}
+
+$aa = def();
+//foreach ($aa as $item){
+//    var_dump($item);
+//}
